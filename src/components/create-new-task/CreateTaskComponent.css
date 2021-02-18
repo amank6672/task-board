@@ -1,0 +1,27 @@
+.create-task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+.create-task .left {
+    display: flex;
+    align-items: center;
+}
+.create-task .left .task-name input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.create-task .left .status-list select {
+    padding: 10px;
+}
+
+.create-task .add-button button {
+    padding: 10px;
+    background-color: lightblue;
+    outline: none;
+    border: 1px solid lightcoral;
+    cursor: pointer;
+}

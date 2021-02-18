@@ -1,0 +1,48 @@
+.task-list {
+    width: 32%;
+    background-color: lightsteelblue;
+    border-radius: 4px;
+    padding: 0 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-list .title {
+    padding: 15px;
+    color: white;
+}
+
+.task-list .list {
+    flex: 1 1 auto;
+}
+
+.task-list .list .task {
+    height: 60px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.task-list .list .task .task-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.task-list .list .task .delete-action {
+    background: transparent;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-weight: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.task-list .list .task select {
+    border: none;
+    outline: none;
+}

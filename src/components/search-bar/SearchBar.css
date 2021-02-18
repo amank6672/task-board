@@ -1,0 +1,18 @@
+.search-bar {
+    position: relative;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.search-bar .icon {
+    padding: 10px;
+    position: absolute;
+    right: -20px;
+    color: lightskyblue;
+}
+
+.search-bar .input-field {
+    width: 100%;
+    padding: 10px;
+    /* text-align: center; */
+}
